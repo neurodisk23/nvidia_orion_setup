@@ -1,0 +1,10 @@
+: sudo apt-get install git
+
+install git and setup the git repo
+
+Error:  remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/neurodisk23/nvidia_orion_setup.git/'
+
+
+Solution: Generate a token via setting and developer option and then it'll ask for the username and password, enter the username and in the name of password enter the token, after this you'll be able to push to the repo.
