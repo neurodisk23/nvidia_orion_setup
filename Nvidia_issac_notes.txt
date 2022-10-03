@@ -1,0 +1,38 @@
+Overview 
+
+ * Open source platform for the robots 
+ * SDK provides a collection of GPU-accelerated algorithm for navigation and manipulation.
+ * Issac SDK works with Issac SIM, which allows the development, testing and training of robots in a virtual environment.
+ 
+ Issac GEMs
+ 
+ * The high performance algorithm is called GEM's and includes 
+   @ Computer vision
+   @ DNN
+   @ High level artificial Intelligence
+ * Provides planning and perception GEM's for navigation and manipulation and also provides support for key hardware components and robotics peripherals.
+ 
+ Issac Application 
+ 
+ 
+  * The Carter application gives you a starting point for building your own delivery robot. Carter can drive to a goal location, patrol a building, or bring you popcorn. The Carter navigation stack is based on a Lidar.
+
+ * Isaac SDK is also supported by a rich ecosystem, and Isaac SDK Engine connects Isaac GEMs to existing packages like OpenCV, ROS, PCL, and others.
+ 
+ Issac Engine
+ 
+ * Isaac SDK Engine fully supports NVIDIA GPUs and CUDA, TensorRT, NPP and other frameworks that allow you to build the fastest robotics application. It is optimized for NVIDIA hardware like Jetson Xavier, Jetson TX/2, Jetson Nano, and workstation GPUs. You can deploy a cross-compiled application optimized for your platform with a single, short command line script.
+ 
+ Issac Sim
+ 
+ * Omniverse can be simulated
+ * Isaac SDK also provides support for Unity3D as a simulation backend for navigation and perception training, with support for the Unity3D high-definition render pipeline (HDRP).
+ 
+
+Setup
+
+* only supports Ubuntu 18.04
+* Isaac SDK requires that your desktop system include a GPU with a compute capability of 6.1 or higher.
+* For deployment of your robotics applications, Isaac works best with a Jetson Nano, Jetson Nano 2GB, Jetson Xavier, Jetson Xavier NX, or Jetson TX2 developer kit. Please make sure to install Jetpack 4.5.1 on your embedded devices. Isaac currently only supports this Jetpack version.
+
+
