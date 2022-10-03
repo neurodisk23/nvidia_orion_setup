@@ -35,4 +35,4 @@ Setup
 * Isaac SDK requires that your desktop system include a GPU with a compute capability of 6.1 or higher.
 * For deployment of your robotics applications, Isaac works best with a Jetson Nano, Jetson Nano 2GB, Jetson Xavier, Jetson Xavier NX, or Jetson TX2 developer kit. Please make sure to install Jetpack 4.5.1 on your embedded devices. Isaac currently only supports this Jetpack version.
 
-
+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
